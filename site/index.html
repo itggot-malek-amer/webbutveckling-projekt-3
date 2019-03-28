@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
@@ -12,29 +13,70 @@
     <div class="wrapper">
       
         <div class="top">
+            
+            <ul>
+                <li> Produkter</li>
+                <li>Hitta hit</li>
+                <li>medlem</li>
 
+            </ul>
+
+            <div class="parad"></div>
         </div>
 
         <header>
-            <H1>Sit.io</H1>
+            <div class="knapp" onclick="reveal()"> <i class="material-icons">menu</i> </div>
+            
+            <div class="rubrik">
+
+                <H1>SiT.iO</H1>
+            </div>
 
         </header>
 
+        <div class="blurr" onclick="reveal()">
+
+        </div>
+    
+
         <main>
+            <div class="slogan">  
+            <h2 id="main">Stolarna För Dig!</h2>
+            </div>
+
             <div class="info1">
 
             </div>
 
             <div class="info2">
-                <img src="" alt="">
+                <img src="img/yet.jpg" alt="">
+                <div class="text">
+                    <p id="brev">
+                        Bästa stolarna i hela världen!
+                        
+                    </p>
+                    <div class="tryck">
+                            <i class="material-icons">expand_more</i>
+                    </div>
+                </div>
             </div>
 
             <div class="info3">
+                <div class="text1">
+                    <p>
+                        Bli medlem!
+                    </p>
 
+                    <div class="tryck1">
+                            <i class="material-icons">expand_more</i>
+                    </div>
+                </div>
+                <img src="img/stul.jpg" alt="">
             </div>
         </main>
 
     </div>
     
+    <script src="js/main.js"></script>
 </body>
 </html>
